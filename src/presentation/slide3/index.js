@@ -28,7 +28,7 @@ export default class Slide3 extends Component {
   handleCLick = () => {
     if (this.state.text === 'Reveal') {
       // todo send fetch request to activate switch
-      fetch('http://35.230.120.181/questions')
+      fetch('https://polar-eyrie-68563.herokuapp.com/questions')
         .then(res => res.json())
         .then(data => {
           console.log(data)
