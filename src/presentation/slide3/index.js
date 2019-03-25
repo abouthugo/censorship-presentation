@@ -28,7 +28,9 @@ export default class Slide3 extends Component {
   handleCLick = () => {
     if (this.state.text === 'Reveal') {
       // todo send fetch request to activate switch
-      fetch('https://polar-eyrie-68563.herokuapp.com/questions')
+      postSwitch(
+        'https://polar-eyrie-68563.herokuapp.com/switch/5c992a487dae01d2108fe22d'
+      )
         .then(res => res.json())
         .then(data => {
           console.log(data)
@@ -59,4 +61,14 @@ export default class Slide3 extends Component {
       </Slide>
     )
   }
+}
+
+function postSwitch (url, data = 'hello') {
+  return fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
 }
