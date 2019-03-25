@@ -63,12 +63,11 @@ export default class Slide3 extends Component {
   }
 }
 
-function postSwitch (url, data = 'hello') {
+function postSwitch (url) {
   return fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
+    }
   })
 }
