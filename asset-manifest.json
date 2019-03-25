@@ -1,11 +1,11 @@
 {
-  "main.js": "/censorship-presentation/static/js/main.6a8f4843.chunk.js",
-  "main.js.map": "/censorship-presentation/static/js/main.6a8f4843.chunk.js.map",
+  "main.js": "/censorship-presentation/static/js/main.0499105a.chunk.js",
+  "main.js.map": "/censorship-presentation/static/js/main.0499105a.chunk.js.map",
   "static/js/1.bbf404ee.chunk.js": "/censorship-presentation/static/js/1.bbf404ee.chunk.js",
   "static/js/1.bbf404ee.chunk.js.map": "/censorship-presentation/static/js/1.bbf404ee.chunk.js.map",
   "runtime~main.js": "/censorship-presentation/static/js/runtime~main.2607538a.js",
   "runtime~main.js.map": "/censorship-presentation/static/js/runtime~main.2607538a.js.map",
   "index.html": "/censorship-presentation/index.html",
-  "precache-manifest.de839a0f563b4f42151bc27e5954eb77.js": "/censorship-presentation/precache-manifest.de839a0f563b4f42151bc27e5954eb77.js",
+  "precache-manifest.400fd463afe23ff54eabf8daf7cb2ed7.js": "/censorship-presentation/precache-manifest.400fd463afe23ff54eabf8daf7cb2ed7.js",
   "service-worker.js": "/censorship-presentation/service-worker.js"
 }
