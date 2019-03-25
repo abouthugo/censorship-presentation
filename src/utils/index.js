@@ -1,2 +1,0 @@
-
-exports.theme = require('./theme')
