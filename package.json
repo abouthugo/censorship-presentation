@@ -7,7 +7,8 @@
 		"gh-pages": "^2.0.1",
 		"react": "^16.8.4",
 		"react-dom": "^16.8.4",
-		"spectacle-scripts": "2.3.0"
+		"spectacle-scripts": "2.3.0",
+		"styled-components": "^4.2.0"
 	},
 	"scripts": {
 		"predeploy": "npm run build",
